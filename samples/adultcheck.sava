@@ -1,0 +1,12 @@
+sava age as number
+sava msg as string
+
+age = 13 # 13歳
+msg = "ようこそxxxへ！"
+
+if age >= 18 then goto showmsg
+
+msg = "18歳以下は立ち入り禁止です！！！"
+
+!showmsg:
+<< msg

@@ -1,0 +1,13 @@
+sava n as number
+n = 100 # 上限
+
+sava i as number # ループ変数
+i = 0
+
+!loop:
+    if i >= n then goto end
+    i++
+    << i
+    goto loop
+
+!end:

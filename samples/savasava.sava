@@ -1,0 +1,15 @@
+sava str as string
+sava n as number
+
+n = 10 # 何個のsava?
+str = ""
+
+sava i as number # ループ変数
+i = 0
+
+!loop:
+    i++
+    str += "sava"
+    if i < n then goto loop
+
+<< str

@@ -1,0 +1,29 @@
+sava n as number
+sava a as number
+sava b as number
+sava c as number
+
+n = 10  # フィボナッチ数列の長さ
+a = 0   # 初項
+b = 1   # 第2項
+
+sava i as number # ループ変数
+i = 2
+
+<< a  # 初項を出力
+<< b  # 第2項を出力
+
+sava i as number
+i = 2
+
+!loop:
+    c = 0
+    c += a
+    c += b
+    a = b
+    b = c
+
+    << c
+
+    i++
+    if i <= n then goto loop
