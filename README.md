@@ -8,7 +8,9 @@ My First Toy Language
 
 ## 試してみる
 
-[デモ実行環境](https://ess2021.github.io/Sava-Lang/demo.html)
+### [デモ実行環境](https://ess2021.github.io/Sava-Lang/demo.html)
+
+なぜか固まる時がある。ちゃんと動かしたい方はNode.jsかGoogle Apps Script使ってください。
 
 ## サンプルコード
 
@@ -26,10 +28,12 @@ My First Toy Language
   !loop:
       i++
       << i # 出力
-      if i >= 10 then goto end
+      if i >= n then goto end
 
   !end:
   ```
+
+### [その他サンプルコード](https://github.com/Ess2021/Sava-Lang/tree/main/samples)
 
 ## 使い方
 まずインタプリタのjsをすべてインポート
