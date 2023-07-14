@@ -68,7 +68,7 @@
         <textarea class="input-area" id="input-area" placeholder='<< "Hello, world!"'></textarea>
         <button class="button" id="button">実行</button><br>
         <a style="color: aquamarine;" href="https://github.com/Ess2021/Sava-Lang/tree/main/samples">サンプルコードたち</a>
-        <p>固まる場合がありますが、処理が重いせいです。<br>ちゃんと動かしたい人はNode.js使うかGoogle Apps Script使ってください。</p>
+        <p>なぜか時々固まります。<br>ちゃんと動かしたい人はNode.js使うかGoogle Apps Script使ってください。</p>
         <textarea class="output-area" id="output-area"></textarea>
     </div>
     <script type="text/javascript" src="./savalang.min.js"></script>
@@ -80,7 +80,7 @@
         button.addEventListener('click', () => {
             outputArea.textContent = "Sava-Lang v0 (c) 2023 Ess2021\n\n";
 
-            const input = inputArea.value;
+            const input = inputArea.value + "\n";
             console.log(input)
             const interpreter = new SavaInterpreter();
 
