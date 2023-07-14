@@ -1,4 +1,4 @@
-class Executer {
+class Executor  {
     constructor(ast) {
         this.ast = ast;
         this.variables = {};
