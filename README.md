@@ -8,7 +8,7 @@ My First Toy Language
 
 ## 試してみる
 
-[サンプル実行環境](https://ess2021.github.io/sava-lang/docs/exe.html)
+[デモ実行環境](https://ess2021.github.io/sava-lang/docs/demo.html)
 
 ## サンプルコード
 
