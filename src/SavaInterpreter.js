@@ -21,10 +21,12 @@ class SavaInterpreter {
             try {
                 console.error("Sava-Lang Runtime Error:");
                 console.error(`  ${error.message}`);
-                console.error(`  at line ${this.executor.currentIndex + 1}`);
-            } catch {
+                if (this.executor != null) {
+                    console.error(`  at line ${this.executor.currentIndex + 1}`);
+                }
+            } catch (err) {
                 console.error("Sava-Lang Parse Error:")
-                console.error(`  ${error.message}`);
+                console.error(`  ${err.message}`);
             }
         }
     }
