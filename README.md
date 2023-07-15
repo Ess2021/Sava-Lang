@@ -28,7 +28,7 @@ My First Toy Language
   !loop:
       i++
       << i # 出力
-      if i >= n then goto end
+      if i < n then goto loop
 
   !end:
   ```
